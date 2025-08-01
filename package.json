@@ -1,0 +1,11 @@
+{
+  "name": "com.kuontools.audio",
+  "displayName": "KuonTools Audio",
+  "author": {"name": "Yantao Wu"},
+  "version": "0.1.0",
+  "unity": "2022.3",
+  "description": "基础的声音播放项目",
+    "dependencies": {
+    "com.kuontools.base":"https://github.com/wuyt/KuonToolsBase.git"
+  }
+}

@@ -1,0 +1,17 @@
+{
+    "name": "KuonTools.Audio",
+    "rootNamespace": "",
+    "references": [
+        "GUID:63c9d2c6f66f1754593972f4818ed0b0",
+        "GUID:f51ebe6a0ceec4240a699833d6309b23"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
