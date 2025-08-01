@@ -4,4 +4,4 @@
 
 该项目实现了简单的声音播放，只考虑了2D的声音播放情况。该项目更多的是个例子，让使用者了解如何根据自己的需要去扩展这个框架或者说结构。
 
-同时，该项目基于 KuonTool.Base
+同时，该项目基于 KuonTool.Base（https://github.com/wuyt/KuonToolsBase.git）
