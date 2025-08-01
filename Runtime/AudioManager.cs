@@ -52,6 +52,7 @@ namespace KuonTools.Audio
 
             Volume = PlayerPrefs.GetFloat("KuonAudioVolume", 0.5f);
             Mute = PlayerPrefs.GetInt("KuonAudioMute", 0) == 1;
+            Controllers = new List<AudioController>();
             Pool = new ObjectPool<AudioController>(CreatePooledItem, OnTakeFromPool, OnReturnedToPool, OnDestroyPoolObject, true, 10, 10);
         }
 
@@ -62,6 +63,7 @@ namespace KuonTools.Audio
         {
             PlayerPrefs.SetFloat("KuonAudioVolume", Volume);
             PlayerPrefs.SetInt("KuonAudioMute", Mute ? 1 : 0);
+          
             base.OnDestroy();
         }
 

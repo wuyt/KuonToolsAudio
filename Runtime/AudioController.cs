@@ -41,6 +41,7 @@ namespace KuonTools.Audio
             audioSource.playOnAwake = false;
             audioSource.loop = false;
             audioSource.spatialBlend = 0;
+            source = audioSource;
             Key = string.Empty;
         }
 
